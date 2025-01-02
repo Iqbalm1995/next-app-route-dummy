@@ -26,3 +26,9 @@ export interface NavigationItem {
   icon: ReactNode; // Icon component, such as from Heroicons
   subMenu?: NavigationSubItem[]; // Optional submenu items
 }
+
+//
+export interface SidebarComponentProps {
+  sidebarOpen: boolean;
+  setSidebarOpen: (open: boolean) => void;
+}
