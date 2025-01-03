@@ -31,4 +31,6 @@ export interface NavigationItem {
 export interface SidebarComponentProps {
   sidebarOpen: boolean;
   setSidebarOpen: (open: boolean) => void;
+  sidebarShow: boolean;
+  setSidebarShow: (show: boolean) => void;
 }
