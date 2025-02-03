@@ -23,3 +23,15 @@ body {
 .sidebar-top-padding {
   padding-top: 7rem;
 }
+
+.sidebar-min-height {
+  min-height: 70vh;
+}
+
+.sidebar-width {
+  width: 30vh;
+}
+
+.rounded-preset {
+  border-radius: 0.8rem;
+}

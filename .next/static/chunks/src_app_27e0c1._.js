@@ -150,6 +150,12 @@ const userNavigation = [
         href: "#"
     }
 ];
+const paths = [
+    "Home",
+    "About",
+    "Team"
+];
+const title = "Our Team";
 function BasicLayout() {
     _s();
     const [sidebarOpen, setSidebarOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(true);
@@ -207,12 +213,12 @@ function BasicLayout() {
                                     className: "w-8"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/base_components/layouts/BasicLayout.tsx",
-                                    lineNumber: 81,
+                                    lineNumber: 84,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/base_components/layouts/BasicLayout.tsx",
-                                lineNumber: 80,
+                                lineNumber: 83,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -223,12 +229,12 @@ function BasicLayout() {
                                     className: "w-8"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/base_components/layouts/BasicLayout.tsx",
-                                    lineNumber: 88,
+                                    lineNumber: 91,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/base_components/layouts/BasicLayout.tsx",
-                                lineNumber: 87,
+                                lineNumber: 90,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
@@ -248,39 +254,39 @@ function BasicLayout() {
                                                         children: item.name
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/base_components/layouts/BasicLayout.tsx",
-                                                        lineNumber: 111,
+                                                        lineNumber: 114,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/base_components/layouts/BasicLayout.tsx",
-                                                lineNumber: 109,
+                                                lineNumber: 112,
                                                 columnNumber: 21
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/base_components/layouts/BasicLayout.tsx",
-                                            lineNumber: 97,
+                                            lineNumber: 100,
                                             columnNumber: 19
                                         }, this)
                                     }, item.name, false, {
                                         fileName: "[project]/src/app/base_components/layouts/BasicLayout.tsx",
-                                        lineNumber: 96,
+                                        lineNumber: 99,
                                         columnNumber: 17
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/src/app/base_components/layouts/BasicLayout.tsx",
-                                lineNumber: 94,
+                                lineNumber: 97,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/base_components/layouts/BasicLayout.tsx",
-                        lineNumber: 74,
+                        lineNumber: 77,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/base_components/layouts/BasicLayout.tsx",
-                    lineNumber: 65,
+                    lineNumber: 68,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -304,17 +310,17 @@ function BasicLayout() {
                                                 "aria-hidden": "true"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/base_components/layouts/BasicLayout.tsx",
-                                                lineNumber: 144,
+                                                lineNumber: 147,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/base_components/layouts/BasicLayout.tsx",
-                                            lineNumber: 139,
+                                            lineNumber: 142,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/base_components/layouts/BasicLayout.tsx",
-                                        lineNumber: 138,
+                                        lineNumber: 141,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -328,17 +334,17 @@ function BasicLayout() {
                                                 "aria-hidden": "true"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/base_components/layouts/BasicLayout.tsx",
-                                                lineNumber: 153,
+                                                lineNumber: 156,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/base_components/layouts/BasicLayout.tsx",
-                                            lineNumber: 148,
+                                            lineNumber: 151,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/base_components/layouts/BasicLayout.tsx",
-                                        lineNumber: 147,
+                                        lineNumber: 150,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -352,12 +358,12 @@ function BasicLayout() {
                                                     className: "size-6"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/base_components/layouts/BasicLayout.tsx",
-                                                    lineNumber: 161,
+                                                    lineNumber: 164,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/base_components/layouts/BasicLayout.tsx",
-                                                lineNumber: 157,
+                                                lineNumber: 160,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$components$2f$menu$2f$menu$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Menu"], {
@@ -373,17 +379,17 @@ function BasicLayout() {
                                                                 className: "size-12 rounded-full border-2 border-gray-300 hover:border-blue-500"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/base_components/layouts/BasicLayout.tsx",
-                                                                lineNumber: 166,
+                                                                lineNumber: 169,
                                                                 columnNumber: 23
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/base_components/layouts/BasicLayout.tsx",
-                                                            lineNumber: 165,
+                                                            lineNumber: 168,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/base_components/layouts/BasicLayout.tsx",
-                                                        lineNumber: 164,
+                                                        lineNumber: 167,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$components$2f$menu$2f$menu$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["MenuItems"], {
@@ -395,65 +401,83 @@ function BasicLayout() {
                                                                     children: item.name
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/base_components/layouts/BasicLayout.tsx",
-                                                                    lineNumber: 176,
+                                                                    lineNumber: 179,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             }, item.name, false, {
                                                                 fileName: "[project]/src/app/base_components/layouts/BasicLayout.tsx",
-                                                                lineNumber: 175,
+                                                                lineNumber: 178,
                                                                 columnNumber: 23
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/base_components/layouts/BasicLayout.tsx",
-                                                        lineNumber: 173,
+                                                        lineNumber: 176,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/base_components/layouts/BasicLayout.tsx",
-                                                lineNumber: 163,
+                                                lineNumber: 166,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/base_components/layouts/BasicLayout.tsx",
-                                        lineNumber: 156,
+                                        lineNumber: 159,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/base_components/layouts/BasicLayout.tsx",
-                                lineNumber: 137,
+                                lineNumber: 140,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/base_components/layouts/BasicLayout.tsx",
-                            lineNumber: 130,
+                            lineNumber: 133,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex flex-col h-screen bg-white text-gray-800 my-4 rounded-2xl shadow"
-                            }, void 0, false, {
+                                className: "grid gap-2 pt-2 grid-cols-1 text-gray-800",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(HeadingPage, {
+                                        titlePage: title,
+                                        pathPage: paths
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/base_components/layouts/BasicLayout.tsx",
+                                        lineNumber: 193,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "flex flex-col p-4 h-screen bg-white rounded-2xl shadow",
+                                        children: "oakwoakwo"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/base_components/layouts/BasicLayout.tsx",
+                                        lineNumber: 194,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
                                 fileName: "[project]/src/app/base_components/layouts/BasicLayout.tsx",
-                                lineNumber: 189,
+                                lineNumber: 192,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/base_components/layouts/BasicLayout.tsx",
-                            lineNumber: 187,
+                            lineNumber: 190,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/base_components/layouts/BasicLayout.tsx",
-                    lineNumber: 128,
+                    lineNumber: 131,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/app/base_components/layouts/BasicLayout.tsx",
-            lineNumber: 63,
+            lineNumber: 66,
             columnNumber: 7
         }, this)
     }, void 0, false);
